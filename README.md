@@ -10,7 +10,6 @@
 - [Pipeline](#pipeline)
 - [Repository Structure](#repository-structure)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Input Format](#input-format)
 - [Usage](#usage)
   - [Wikidata Benchmark](#wikidata-benchmark-seebenchmark_entities_embeddings2py)
@@ -21,7 +20,6 @@
 - [Reproducibility](#reproducibility)
 - [Datasets](#datasets)
 - [Citation](#citation)
-
 ---
 
 ## Overview
@@ -89,15 +87,6 @@ kgDRIFT/
 
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/kgDRIFT.git
-cd kgDRIFT
-pip install numpy pandas scikit-learn scipy sentence-transformers openpyxl hdbscan
-```
-
----
 
 ## Input Format
 
@@ -357,19 +346,11 @@ All code and data are available at: [https://anonymous.4open.science/r/kgDRIFT-B
 
 | Dataset | Windows | Entities/month | Source |
 |---|---|---|---|
-| Wikidata | 7 (M1–M7) | ≈195 | [Malyshev et al., ISWC 2018](https://doi.org/10.1007/978-3-030-00668-6_23) |
+| Wikidata | 7 (M1–M7) | ≈195 | 
 | DBpedia | 4 (M1–M4) | ≈210 | [Saleem et al., ISWC 2015 (LSQ)](https://doi.org/10.1007/978-3-319-25010-6_15) |
 
 ---
 
 ## Citation
 
-If you use kgDrift in your research, please cite:
 
-```bibtex
-@inproceedings{kgdrift2026,
-  title     = {kgDRIFT: Modeling the Evolution of User Interests exploiting Summaries},
-  booktitle = {Proceedings of the 25th International Semantic Web Conference (ISWC 2026)},
-  year      = {2026}
-}
-```
